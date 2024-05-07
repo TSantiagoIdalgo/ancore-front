@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: barlow, arial, sans-serif;
+  font-weight: 400;
+}
+
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff5400;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333 ;
+}

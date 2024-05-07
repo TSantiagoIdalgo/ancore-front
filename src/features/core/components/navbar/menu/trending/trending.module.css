@@ -1,0 +1,32 @@
+.trendings {
+    align-items: center;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    position: relative;
+    transition: .2s;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.trendings a {
+    color: #fffd;
+    font-size: 1rem;
+}
+
+.trendings a:hover {
+    color: #fff
+}
+
+
+.trendings_scroll {
+    animation-name: scrollTrending;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scrollTrending {
+    to {
+        margin-top: -50px;
+    }
+}

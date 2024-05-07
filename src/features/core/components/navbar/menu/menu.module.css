@@ -1,0 +1,13 @@
+.menu {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%);
+    transition: .2s;
+    transition-timing-function: cubic-bezier(0,0,0,1);
+    width: 600px;
+    z-index: 1;
+}

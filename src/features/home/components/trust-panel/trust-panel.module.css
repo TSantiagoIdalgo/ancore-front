@@ -1,0 +1,50 @@
+.container {
+    align-items: center;
+    background: #000;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    height: 150px;
+    width: 100%;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.content_fast {
+    align-items: center;
+    display: flex;
+}
+
+.content_fast img {
+    width: 60px;
+    height: 60px;
+}
+
+.text {
+    line-height: 27px;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainText {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.subText {
+    color: #777;
+}
+
+.spacer {
+    background-color: #323232;
+    height: 70px;
+    width: 1px;
+}

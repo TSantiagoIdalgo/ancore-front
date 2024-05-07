@@ -1,0 +1,77 @@
+* {
+    text-decoration: none;
+}
+
+.header {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin-bottom: -73px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    transition: .2s;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header_scroll {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin-bottom: -73px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    transition: .2s;
+    width: 100%;
+    z-index: 2;
+    background-color: #000c;
+    z-index: 1000;
+}
+
+
+.gradient {
+    background: linear-gradient(#000, transparent);
+    content: "";
+    height: 110px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    z-index: -1;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.cart_icon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(22%) saturate(0%) hue-rotate(210deg) brightness(105%) contrast(107%);
+    transition: filter 80ms ease-in;
+    width: 25px;
+    cursor: pointer;
+}
+
+.cart_icon:hover {
+    filter: none
+}
+
+.user_icon {
+    filter: brightness(0) saturate(100%) invert(100%);
+    transition: filter 80ms ease-in;
+    width: 30px;
+    cursor: pointer;
+}
+
+.user_icon:hover {
+    filter: brightness(0) saturate(100%) invert(47%) sepia(50%) saturate(6268%) hue-rotate(0deg) brightness(100%) contrast(108%);
+
+}
